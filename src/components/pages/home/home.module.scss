@@ -1,0 +1,28 @@
+.home{
+  background-image: url('../../../../public/img/p1.jpg');
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    gap: 100px;
+}
+
+.home__welcome-message{
+  color: white;
+  text-align: center;
+  background-color: #DED495;
+  color: #3D3551;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow:  1px 1px 40px  #3D3551;
+  
+  h2{
+    font-size: 40px;
+  }
+  p{
+    font-size: 20px;
+  }
+}

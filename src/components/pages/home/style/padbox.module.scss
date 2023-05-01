@@ -1,0 +1,11 @@
+.padbox{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px 4% ;
+    align-items: center;
+    justify-content: center;
+    // min-height: 100vh;
+    // background: #000;
+}

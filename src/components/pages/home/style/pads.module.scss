@@ -1,0 +1,42 @@
+.pads {
+  width: 200px;
+  height: 80px;
+  
+
+  button {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    color: #3D3551;
+    background-color: #DED495;
+     box-shadow:  1px 1px 40px  #3D3551;
+
+  }
+
+  button:active {
+        background-color: grey;
+  }
+  .key-pressed {
+    animation: change 0.2s ease-in-out;
+   
+  }
+
+  p{
+      padding: 5px 0; 
+      background-color: #424860;
+      border-radius: 5px;
+      color: #DED495;
+    
+  }
+
+  @keyframes change {
+    10% {
+      background-color: grey;
+    }
+    100% {
+      background-color: white;
+    }
+  }
+}
